@@ -10,7 +10,8 @@
 	<section id = "section-1">
 		<!-- Left half -->
 		<div id="left">
-			<img src="https://www.instagram.com/static/images/homepage/screenshot5.jpg/f5ae123ab1e2.jpg">
+			<!-- <img id="phone" src="https://www.instagram.com/static/images/homepage/screenshot5.jpg/f5ae123ab1e2.jpg"> -->
+			<img src="insta-photo.png">
 		</div >
 
 		<!-- Right half -->
@@ -18,24 +19,25 @@
 
 			<!-- Part 1 -->
 			<div class="wht-bg">
-				<h1>Instagram</h1>
-				<p id="sign-up">Sign up to see photos and videos from your friends</p>
+				<img id="insta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2000px-Instagram_logo.svg.png">
+
+				<h2>Sign up to see photos and videos from your friends.</h2>
 				<button class="btn">Log in with Facebook</button>
 
 				<p>or</p>
 				
-				<div id="input-group">
-					<input type="text" class="input" aria-describedby="" aria-label="Mobile Number or Email" aria-required="true" autocapitalize="off" autocorrect="off" name="emailOrPhone" placeholder="Mobile Number or Email" value="">
+				<form id="input-group">
+					<input type="text" class="input" name="emailOrPhone" placeholder="Mobile Number or Email">
 
-					<input type="text" class="input" aria-describedby="" aria-label="Full Name" aria-required="false" autocapitalize="sentences" autocorrect="off" name="fullName" placeholder="Full Name" value="">
+					<input type="text" class="input" name="fullName" placeholder="Full Name">
 
-					<input type="text" class="input" aria-describedby="" aria-label="Username" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="30" name="username" placeholder="Username" value="">
+					<input type="text" class="input" name="username" placeholder="Username">
 
 					<input type="password" class="input" aria-describedby="" aria-label="Password" aria-required="true" autocapitalize="off" autocorrect="off" name="password" placeholder="Password" value="">
-				</div>
+				</form>
 
 				<button class="btn">Sign up</button>
-				<p>By signing up, you agree to our Terms & Privacy Policy.</p>
+				<p class="apple-grey tandc">By signing up, you agree to our Terms & Privacy Policy.</p>
 			</div>
 
 			<!-- Part 2 -->
@@ -47,6 +49,8 @@
 			<div>
 				<p>Get the app.</p>
 			</div>
+			<img class="app" src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/4b70f6fae447.png">
+			<img class="app" src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/f06b908907d5.png">
 		</div>
 
 		<!-- Float seperator -->
@@ -54,19 +58,18 @@
 	</section>
 
 	<!-- Footer/Bottom half -->
-	<section class="foot">
+	<footer class="foot">
 		<p>About us</p>
 		<p>support</p>
 		<p>blog</p>
 		<p>press</p>
 		<p>api</p>
 		<p>jobs</p>
-		<p>privacy</p>
+		<p>privacy</p>	
 		<p>terms</p>
 		<p>directory</p>
 		<p>language</p>
-		
-	</section>
+	</footer>
 
 </body>
 </html>
