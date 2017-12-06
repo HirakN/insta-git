@@ -5,7 +5,7 @@ html,body {
 }
 
 #wrapper {
-	width: 936px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -14,16 +14,16 @@ html,body {
 }
 
 #left-main {
-	width: 50%;
+	width: 468px;
 	height: 100%;
 	float: left;
 	text-align: center;
 }
 
 #right-main {
-	width: 50%;
+	width: 468px;
 	height: 100%;
-	float: right;
+	float: left;
 	padding-top: 73px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -73,4 +73,19 @@ html,body {
 	color: white;
 }
 
+/*----BREAKPOINTS FOR SCREENS----*/
+/*Anything higher for XL screens*/
+/*960 for large screens*/
+/*480 for iPads/tablets*/
+/*320 for phone screens*/
+@media screen and (max-width: 960px) {
+	#left-main {
+		display: none;
+	}
 
+	#right-main {
+		width: 100%;
+		float: none;
+		padding: 20px;
+	}
+}
